@@ -10,7 +10,7 @@
 ## "setSolve" to solve for m, the inverse of x
 ## "getSolve" to return m, the cached inverse of x
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
   ## initialize matrix m to NULL
   ## this will store the inverse of x
   m <- NULL
